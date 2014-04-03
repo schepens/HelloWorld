@@ -27,7 +27,7 @@ namespace WpfHelloWorld
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            string msg = "Hello World";
+            string msg = "Hello World 2";
             MessageBox.Show(msg);
         }
     }
