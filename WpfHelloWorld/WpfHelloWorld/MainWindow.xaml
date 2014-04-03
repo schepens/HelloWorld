@@ -3,7 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button Content="Snafu" HorizontalAlignment="Left" Margin="100,108,0,0" VerticalAlignment="Top" Width="107" Click="Button_Click_1" Height="50"/>
+        <Button Content="Snafu" HorizontalAlignment="Left" Margin="24,54,0,0" VerticalAlignment="Top" Width="62" Click="Button_Click_1" Height="28" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="91.252"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="103" Margin="144,114,0,0" VerticalAlignment="Top" Width="157"/>
 
     </Grid>
 </Window>

@@ -13,5 +13,6 @@ namespace WpfHelloWorld
     /// </summary>
     public partial class App : Application
     {
+	// Comment change
     }
 }
